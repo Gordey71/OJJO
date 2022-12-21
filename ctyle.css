@@ -1,7 +1,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    color:var(--main-text-color);
     text-decoration: var(--text-decoration);
 }
 
@@ -9,8 +8,10 @@
     --icon-color: #FFFFFF;
     --main-text-color: #FFFFFF;
     --help-text-color: #333333;
-    --container-width: 1290px;
+    --container-width: 1100px;
     --text-decoration:none;
+    --qty-column: 3;
+    --gap: 30px;
 }
 
 .container {
@@ -21,6 +22,12 @@
 .header {
     background-image: url(/img/bgc.png);
     background-position: top;
+
+    color: var(--main-text-color);
+}
+
+.header a {
+    color: var(--main-text-color);
 }
 
 .header_container {
@@ -41,7 +48,7 @@
 }
 
 .header__nav {
-    
+
 }
 
 .header__menu {
@@ -140,5 +147,8 @@
 
 /*                              MAIN                          */
 .main {
-    padding-top: 100px;
+    padding-top: 80px;
+
+    font-family:Gilroy;
 }
+
